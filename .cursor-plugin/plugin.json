@@ -16,14 +16,13 @@
     "data-extraction",
     "search",
     "research",
-    "anakin-cli",
-    "anakin"
+    "crawling"
   ],
   "category": "developer-tools",
   "tags": [
     "scraping",
-    "data",
-    "research"
+    "research",
+    "automation"
   ],
   "skills": "./skills/",
   "rules": "./rules/",

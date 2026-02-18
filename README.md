@@ -1,10 +1,10 @@
 # Anakin plugin
 
-Convert websites into clean data at scale using anakin-cli.
+Convert websites into clean data at scale: scrape, batch-scrape, search, and deep research.
 
 ## Requirements
 
-This plugin requires [anakin-cli](https://pypi.org/project/anakin-cli/) (Python 3.10+). Install it and authenticate before use:
+This plugin requires [anakin-cli](https://pypi.org/project/anakin-cli/) (Python 3.10+):
 
 ```bash
 pip install anakin-cli
@@ -18,16 +18,6 @@ Get your API key from [anakin.io/dashboard](https://anakin.io/dashboard).
 ```bash
 /add-plugin anakin
 ```
-
-## Quick start
-
-> "Scrape https://example.com and give me the content as markdown"
-
-> "Batch scrape these three product pages and compare the prices"
-
-> "Search the web for recent articles about web scraping best practices"
-
-> "Do deep research on the top web scraping tools in 2026"
 
 ## Components
 
@@ -52,13 +42,6 @@ Get your API key from [anakin.io/dashboard](https://anakin.io/dashboard).
 | Agent | Description |
 |:------|:------------|
 | `data-extraction-architect` | Plan which anakin-cli commands to use for complex extraction tasks |
-
-## Typical flow
-
-1. Use `data-extraction-architect` to plan your approach for complex tasks.
-2. Use `search-web` to find relevant pages when you don't have URLs.
-3. Use `scrape-website` for single pages or `scrape-batch` for multiple URLs.
-4. Use `deep-research` for comprehensive multi-source analysis.
 
 ## License
 
