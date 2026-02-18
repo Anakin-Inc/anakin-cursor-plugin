@@ -1,0 +1,31 @@
+{
+  "name": "anakin",
+  "displayName": "Anakin",
+  "version": "1.0.0",
+  "description": "Convert websites into clean data at scale. Scrape, batch-scrape, search, and run deep research using the anakin-cli.",
+  "author": {
+    "name": "Anakin",
+    "email": "support@anakin.io"
+  },
+  "homepage": "https://anakin.io",
+  "repository": "https://github.com/Anakin-Inc/anakin-cli",
+  "license": "MIT",
+  "logo": "assets/avatar.jpg",
+  "keywords": [
+    "web-scraping",
+    "data-extraction",
+    "search",
+    "research",
+    "anakin-cli",
+    "anakin"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "scraping",
+    "data",
+    "research"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "agents": "./agents/"
+}

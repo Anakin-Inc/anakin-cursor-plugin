@@ -1,0 +1,11 @@
+---
+description: Ensure anakin-cli is installed and authenticated before running any anakin command.
+alwaysApply: true
+---
+
+# Anakin CLI setup
+
+1. Before running any `anakin` command, verify the CLI is installed and authenticated by running `anakin status`.
+2. If anakin-cli is not installed, install it with `pip install anakin-cli`.
+3. If not authenticated, run `anakin login --api-key "<key>"` or prompt the user for their API key from anakin.io/dashboard.
+4. Never hardcode or log API keys in files — use `anakin login` to store credentials securely.

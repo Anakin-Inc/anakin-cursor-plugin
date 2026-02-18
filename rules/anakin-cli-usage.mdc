@@ -1,0 +1,15 @@
+---
+description: Enforce correct anakin-cli usage patterns for URL quoting, output handling, format defaults, and error recovery.
+alwaysApply: true
+---
+
+# Anakin CLI usage rules
+
+1. Always quote URLs in anakin commands to prevent shell interpretation of `?`, `&`, `#`.
+2. Always use `-o <file>` to save output to a file rather than flooding the terminal.
+3. Default to `--format markdown` for scraping unless the user explicitly asks for JSON or raw output.
+4. Use `--browser` only when a standard scrape returns empty or incomplete content from JS-heavy sites.
+5. Limit `scrape-batch` to 10 URLs per call — split larger lists into multiple batches.
+6. On HTTP 429 (rate limit) errors, wait before retrying — do not loop immediately.
+7. On HTTP 401 errors, re-run `anakin login` rather than retrying the same command.
+8. Progress output goes to stderr, clean data to stdout — use `-o` for reliable file output.
